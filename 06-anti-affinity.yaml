@@ -18,7 +18,7 @@ spec:
   - name: nginx
     image: nginx
   tolerations:
-  - key: "hardware"
+  - key: "env"
     operator: "Equal"
-    value: "gpu"
+    value: "prod"
     effect: "NoExecute"
